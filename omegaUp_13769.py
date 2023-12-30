@@ -7,8 +7,8 @@
 juguetes = int(input())
 # Creamos una lista para guardar los niveles
 niveles = list()
-# Pedimos al usuario los niveles
 
+# Pedimos al usuario los niveles
 for i in range(juguetes):
     # Ingresa niveles
     nivel_div = int(input())
