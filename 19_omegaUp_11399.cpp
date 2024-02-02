@@ -2,27 +2,27 @@
 using namespace std;
 
 
-// Funci髇 para realizar un retiro
+// Funci贸n para realizar un retiro
 void realizarRetiro(float& saldo, float monto) {
     if (monto > 0 && monto <= saldo) {
         saldo -= monto;
         cout << "Retiro exitoso. Saldo restante: $" << saldo << endl;
     } else {
-        cout << "Error: Monto inv醠ido o insuficiente saldo." << endl;
+        cout << "Error: Monto inv谩lido o insuficiente saldo." << endl;
     }
 }
 
-// Funci髇 para realizar un dep髎ito
+// Funci贸n para realizar un dep贸sito
 void realizarDeposito(float& saldo, float monto) {
     if (monto > 0) {
         saldo += monto;
-        cout << "Dep髎ito exitoso. Saldo actual: $" << saldo << endl;
+        cout << "Dep贸sito exitoso. Saldo actual: $" << saldo << endl;
     } else {
-        cout << "Error: Monto de dep髎ito inv醠ido." << endl;
+        cout << "Error: Monto de dep贸sito inv谩lido." << endl;
     }
 }
 
-// Funci髇 para consultar el saldo
+// Funci贸n para consultar el saldo
 void consultarSaldo(float saldo) {
     cout << "Saldo disponible: $" << saldo << endl;
 }
@@ -64,11 +64,11 @@ int main() {
                 break;
 
             case 'S':
-                cout << "Gracias por utilizar el cajero autom醫ico." << endl;
+                cout << "Gracias por utilizar el cajero autom谩tico." << endl;
                 break;
 
             default:
-                cout << "Opci髇 no v醠ida. Int閚telo de nuevo." << endl;
+                cout << "Opci贸n no v谩lida. Int茅ntelo de nuevo." << endl;
         }
     } while (opcion != 'S');
 
