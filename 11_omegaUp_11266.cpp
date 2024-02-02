@@ -10,7 +10,7 @@ int main() {
     cout << "Ingrese el valor de a y b separados por un espacio: ";
     cin >> a >> b;
 
-    // Imprimir los múltiplos de a en el rango de a a b
+    // Imprimir los mÃºltiplos de a en el rango de a a b
     cout << "Multiplos de " << a << " en el rango de " << a << " a " << b << ":" << endl;
 
     for (int i = a; i <= b; i += a) {
