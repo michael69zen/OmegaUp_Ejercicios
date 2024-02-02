@@ -2,14 +2,14 @@
 
 using namespace std;
 
-// Función para calcular la suma de los dígitos
+// FunciÃ³n para calcular la suma de los dÃ­gitos
 int sumaDigitos(int numero) {
     int suma = 0;
 
-    // Iterar mientras haya dígitos
+    // Iterar mientras haya dÃ­gitos
     while (numero != 0) {
-        suma += numero % 10;  // Obtener el último dígito y sumarlo
-        numero /= 10;         // Eliminar el último dígito
+        suma += numero % 10;  // Obtener el Ãºltimo dÃ­gito y sumarlo
+        numero /= 10;         // Eliminar el Ãºltimo dÃ­gito
     }
 
     cout<<suma<<endl;
@@ -22,11 +22,11 @@ int main() {
     cout << "Ingrese un entero N: ";
     cin >> N;
 
-    // Calcular la suma de los dígitos utilizando la función sumaDigitos
+    // Calcular la suma de los dÃ­gitos utilizando la funciÃ³n sumaDigitos
     int resultado = sumaDigitos(N);
 
     // Mostrar el resultado
-    cout << "La suma de los dígitos de " << N << " es: " << resultado << endl;
+    cout << "La suma de los dÃ­gitos de " << N << " es: " << resultado << endl;
 
     return 0;
 }
